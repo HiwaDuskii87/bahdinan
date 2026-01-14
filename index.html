@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Invite Bot</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            min-height: 100vh;
+            background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            color: #ffffff;
+        }
+
+        .container {
+            flex: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+
+        .logo-box {
+            background: rgba(255, 255, 255, 0.08);
+            padding: 50px;
+            border-radius: 20px;
+            backdrop-filter: blur(10px);
+            box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+        }
+
+        .logo-box img {
+            width: 180px;
+            max-width: 100%;
+            margin-bottom: 20px;
+        }
+
+        .logo-box h1 {
+            font-size: 2.2rem;
+            letter-spacing: 2px;
+            margin-bottom: 25px;
+        }
+
+        .invite-btn {
+            display: inline-block;
+            padding: 14px 35px;
+            font-size: 16px;
+            font-weight: 600;
+            letter-spacing: 1px;
+            color: #ffffff;
+            text-decoration: none;
+            border-radius: 30px;
+            background: linear-gradient(135deg, #5865F2, #4752C4);
+            box-shadow: 0 0 20px rgba(88, 101, 242, 0.5);
+            transition: all 0.3s ease;
+        }
+
+        .invite-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 0 30px rgba(88, 101, 242, 0.9);
+        }
+
+        footer {
+            text-align: center;
+            padding: 15px 0;
+            background: rgba(0, 0, 0, 0.25);
+            font-size: 14px;
+            letter-spacing: 1px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="logo-box">
+            <!-- Replace logo.png with your logo -->
+            <img src="https://cdn.discordapp.com/attachments/1414965135612838022/1460684721054027857/photo-output.png?ex=6967d027&is=69667ea7&hm=19c954a93184f7e695f3e96f755c51dec41cfec88e6baa526659276cda46556a&" alt="My Logo">
+            <h1>BAHDINAN DOLAR</h1>
+
+            <!-- Invite Bot Button -->
+            <a href="https://discord.com/oauth2/authorize?client_id=1460600349726478549&permissions=10737724416&integration_type=0&scope=bot"
+               class="invite-btn"
+               target="_blank">
+               Invite Bot
+            </a>
+        </div>
+    </div>
+
+    <footer>
+        © BAHDINAN DOLAR
+    </footer>
+
+</body>
+</html>
